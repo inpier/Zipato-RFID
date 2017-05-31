@@ -27,9 +27,9 @@ import physicalgraph.zwave.commands.batteryv1.*
 //*******************************************************************************************************************************|
 metadata {
 	definition (name: "Z-Wave Zipato RFID Keypad", namespace: "seanblanchfield.com", author: "Sean Blanchfield") {
-		capability "Actuator"
-		capability "Sensor"
-		capability "Battery"
+	capability "Actuator"
+	capability "Sensor"
+	capability "Battery"
         capability "Configuration"
         capability "Switch"
         capability "Refresh"
@@ -65,7 +65,7 @@ metadata {
         attribute "rfid8", "enum", ["associated","unassociated"]
         attribute "rfid9", "enum", ["associated","unassociated"]
         
-		attribute "lastsetby", "String"
+	attribute "lastsetby", "String"
         attribute "webCoREPush", "String"
         attribute "webCoRESMS", "String"
        
