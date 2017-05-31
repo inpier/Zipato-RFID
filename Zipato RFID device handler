@@ -178,12 +178,12 @@ metadata {
            input name: "who0", type: "text", title: "Enter Name for SmartThings Dashboard", description: "Name for SmartThings Dashboard", defaultValue: "SmartThings", displayDuringSetup: false
            input name: "who1", type: "text", title: "Enter Name for User 1", description: "1", defaultValue: "User 1", displayDuringSetup: false
            input name: "who2", type: "text", title: "Enter Name for User 2", description: "2", defaultValue: "User 2", displayDuringSetup: false
-		   input name: "who3", type: "text", title: "Enter Name for User 3", description: "3", defaultValue: "User 3", displayDuringSetup: false
+	   input name: "who3", type: "text", title: "Enter Name for User 3", description: "3", defaultValue: "User 3", displayDuringSetup: false
            input name: "who4", type: "text", title: "Enter Name for User 4", description: "4", defaultValue: "User 4", displayDuringSetup: false
            input name: "who5", type: "text", title: "Enter Name for User 5", description: "5", defaultValue: "User 5", displayDuringSetup: false
            input name: "who6", type: "text", title: "Enter Name for User 6", description: "6", defaultValue: "User 6", displayDuringSetup: false
            input name: "who7", type: "text", title: "Enter Name for User 7", description: "7", defaultValue: "User 7", displayDuringSetup: false
-		   input name: "who8", type: "text", title: "Enter Name for User 8", description: "8", defaultValue: "User 8", displayDuringSetup: false
+	   input name: "who8", type: "text", title: "Enter Name for User 8", description: "8", defaultValue: "User 8", displayDuringSetup: false
            input name: "who9", type: "text", title: "Enter Name for User 9", description: "9", defaultValue: "User 9", displayDuringSetup: false 
         }
     }
